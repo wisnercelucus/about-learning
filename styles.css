@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.about-box{
+	width: 100%;
+	background-color: #d4d4d4;
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	overflow: hidden;
+	box-sizing: border-box;
+	font-family:Tahoma;
+}
+
+.section-content{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	align-items: flex-start ;
+	flex-wrap: wrap;
+}
+
+.section-header{
+	text-align: center;
+	padding: 3%;
+	margin-bottom: 30px;
+}
+
+.section-header .title-underline{
+	content: "";
+	border: 2px solid dodgerblue;
+	width: 70px;	
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.section-content{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.card-container{
+	width: 250px;
+	background-color: #fff;
+	text-align:center;
+	border-radius: 5px 5px;
+	margin: 20px;
+	
+}
+
+.card-container .card-container-header{
+	background-color: #f1f1f1;
+	height: 3rem;
+	box-sizing: border-box;
+	display:flex;
+	flex-direction: row;
+	padding: 5px;
+	border-radius: 5px 5px 0px 0px;
+	
+}
+
+.card-container .card-container-header .title-column{
+	box-sizing:border-box;
+	text-align:left;
+	margin-left: 7px;
+	margin-top: -1px;
+}
+
+.card-container .card-container-header .title-column span{
+	display: block;
+}
+
+.card-container .card-container-header .title-column span:first-child{
+	font-size: 13px;
+	font-weight: 600;
+	color: #130810;
+	
+}
+
+.card-container .card-container-header .title-column span:last-child{
+	font-size: 12px;
+	font-weight: 600;
+	color: #333b3c;
+}
+
+.card-container .card-container-header .title-column .card-title{
+	
+	
+}
+
+.avatar-xs{
+	width:35px;
+	height:35px;
+	border-radius:50%;
+}
+
+.card-container .card-container-body{
+	box-sizing: border-box;
+	display:flex;
+	flex-direction: column;
+	padding: 5px;
+}
+
+.card-container .card-container-body p{
+	text-align: justify;
+	margin-bottom: 7px;
+	font-size: 13px;
+	
+}
+.card-container .card-container-body .card-content-image{
+	width: 100%;
+}
+
+.card-container .card-container-footer{
+	background-color: #f1f1f1;
+	height: 3rem;
+	box-sizing: border-box;
+	display:flex;
+	flex-direction: row;
+	padding: 3%;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.card-container .card-container-footer .btn-footer-default{
+	padding: 10px 20px;
+	border-radius: 50px;
+	border: none;
+	background-color: #d5d5d5;
+	cursor:pointer;
+}
+
+.card-container .card-container-footer .btn-footer-default:focus{
+	outline-color: cyan;
+	
+}
+
+
+
+
+
+
